@@ -1,0 +1,36 @@
+ HISTORY OF JAVA:
+ Java was originally designed for interactive television, but it was too 
+ advanced technology for the digital  cable television industry at the time. 
+ The history of Java starts with the  Green Team. Java team members
+ (also known as Green Team), initiated  this project to develop a language
+ for digital devices such as set-top boxes, televisions, etc. However, 
+ it was best suited for internet programming. Later, Java technology 
+ was incorporated by Netscape. Java was developed by James Gosling, who is known 
+ as the father of Java, in 1995. James Gosling and his team members started 
+ the project in the early '90s.
+ James Gosling - founder of java Currently, Java is used in internet programming, 
+ mobile devices, games, e-business solutions, etc. Following are given significant 
+ points that describe the history of Java.
+
+1) James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java 
+    language project in June 1991. The small team of sun engineers called Green 
+    Team.
+
+2) Initially it was designed for small, embedded systems in electronic 
+    appliances like set-top boxes.
+
+3) Firstly, it was called "Greentalk" by James Gosling, and the file 
+    extension was .gt.
+
+4) After that, it was called Oak and was developed as a part of the 
+    Green project.
+
+Java virtual machine(JVM):
+                                              A Java virtual machine is a virtual machine that 
+enables a computer to run Java programs as well as programs written in other 
+languages that are also compiled to Java bytecode. The JVM is detailed by a 
+specification that formally describes what is required in a JVM implementation.
+
+=>Java Virtual Machine, or JVM, loads, verifies and executes Java bytecode. 
+It is known as the interpreter or the core of Java programming language 
+because it executes Java programming
