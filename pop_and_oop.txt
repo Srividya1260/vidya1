@@ -1,0 +1,50 @@
+**differences between procedural language and object oriented programming :
+
+*Procedural language:
+                                  It can be defined as a programming model which is derived from 
+structured programming, based upon the concept of calling procedure. Procedures, 
+also known as routines, subroutines or functions, simply consist of a series of computational 
+steps to be carried out. During a program’s execution, any given procedure might be 
+called at any point, including by other procedures or itself. ex: cobal,basic and c
+
+*Object oriented programming :
+                                               can be defined as a programming model which is based 
+upon the concept of objects. Objects contain data in the form of attributes and code in 
+the form of methods. In object-oriented programming, computer programs are designed 
+using the concept of objects that interact with the real world. Object-oriented programming 
+languages are various but the most popular ones are class-based, meaning that objects are 
+instances of classes, which also determine their types. ex: java , c++, python
+
+
+Procedural Oriented Programming	                          Object-Oriented Programming
+
+1. In procedural programming, the program                 1. In object-oriented programming, the 
+    is divided into small parts called functions.	         program is divided into small parts 
+                                                                                           called objects.
+
+2. Procedural programming follows a                            2. Object-oriented programming follows 
+    top-down approach                                                         a bottom-up approach.
+
+3. There is no access specifier in                                   3. Object-oriented programming has access 
+     procedural programming.                                             specifiers like private, public, protected, 
+                                                                                           etc.
+
+4. Adding new data and functions                                 4. Adding new data and function is easy.
+    is not easy.
+
+5. Procedural programming does not                             5.  Object-oriented programming provides 
+    have any proper way of hiding data                                 data hiding so it is more secure.
+    so it is less secure.
+
+6. In procedural programming,                                      6.  In object-oriented programming, 
+    there is no concept of data                                               the concept of data hiding and 
+    hiding and inheritance.                                                    inheritance is used.
+
+7. Procedural programming uses                                    7. Object-oriented programming uses 
+    the concept of procedure abstraction.                              the concept of data abstraction.
+
+8.  Code reusability absent in                                          8.  Code reusability present in 
+      procedural programming,                                               object-oriented programming.
+     
+    
+                                                                                                 
