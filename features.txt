@@ -1,0 +1,112 @@
+Java Features :
+1.Object Oriented :  
+                              In Java, everything is an Object. Java can be easily 
+   extended since it is based on the Object model.
+
+2.Platform Independent : 
+                                        Unlike many other programming languages 
+   including C and C++, when Java is compiled, it is not compiled into 
+   platform specific machine, rather into platform-independent byte code. 
+   This byte code is distributed over the web and interpreted by the Virtual 
+   Machine (JVM) on whichever platform it is being run on.
+
+3.Simple :
+                Java is designed to be easy to learn. If you understand the basic 
+   concept of OOP Java, it would be easy to master.
+
+4.Architecture-neutral :
+                                   Java compiler generates an architecture-neutral object 
+   file format, which makes the compiled code executable on many processors, 
+   with the presence of Java runtime system.
+
+5.Portable :
+                  It is portable because it allows you to carry the java bytecode to any platform
+
+6.Interpreted :
+                       JVM is the java interpreter it can execute java bytecode directly on 
+   any machine
+
+7.Multi-threaded :
+                            A thread is like a seperate program,executing concurently
+
+8. High-performance :
+                                   Java is faster than any other language.Java byte code is similar 
+   to native machine code
+
+9.Robust :
+                  It means strong . It uses strong memory management.Due to lack of 
+  pointers will avoid security problems
+
+9.Distributed :
+                       A technology is said to be distributed if its bussiness objects
+  are graphically dispersed intlo different locations .
+
+10.Secure :
+                   It has no pointers to avoid security problems.It runs inside a virtual
+  machine sand box
+11.Dynamic :
+                       It supports dynamic loading of classes.So called dynamic
+
+
+**Structure of Java Program :
+          Let's see which elements are included in the structure of a Java 
+    program. A typical structure of a Java program contains the following 
+    elements:  
+                     * Documentation Section=>//First Java Program  
+
+                     * Package Declaration=>package Myself;
+
+                      * Import Statements=>import java.util.*;
+
+                      * Interface Section=>interface car  
+                                                         {  
+                                                              void start();    
+                                                         }  
+
+                      * Class Definition=>class Student   
+                                                        {  
+                                                         }  
+
+                      * Class Variables and Variables=>class Student 
+                                                                               {  
+                                                                                   String sname;  
+                                                                                   int id;   
+                                                                                   double percentage;   
+                                                                               }  
+
+                       * Main Method Class=>public static void main(String args[])  
+
+                       * Methods and Behaviors =>   public class Demo {  
+                                                                         public static void main(String[]args){  
+                                                                         void display() {  
+                                                                         System.out.println("Welcome to javatpoint");  
+                                                                         }  
+                                                                         //statements  
+                                                                        } }                        
+  **Java Variables::
+                                A variable is a container which holds the value while 
+      the Java program is executed. A variable is assigned with a data type.
+ **Types of Variables:
+                                 There are three types of variables in Java:
+                                 =>local variable:A variable declared inside the body of 
+                                      the method is called local variable.
+
+                                 =>instance variable:A variable declared inside the class 
+                                     but outside the body of the method, is called an 
+                                     instance variable.
+
+                                 =>static variable:A variable that is declared as static 
+                                      is called a static variable.
+**Primitive Data Types:
+                                          A primitive data type specifies the size and type of 
+    variable values, and it has no additional methods.
+
+There are eight primitive data types in Java:
+                  byte	     1 byte	      Stores whole numbers from -128 to 127
+                  short	     2 bytes	      Stores whole numbers from -32,768 to 32,767
+                  int	     4 bytes	      Stores whole numbers from -2,147,483,648 to 2,147,483,647
+                  long	     8 bytes	      Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+                  float	     4 bytes	      Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+                  double	     8 bytes	      Stores fractional numbers. Sufficient for storing 15 decimal digits
+                  boolean	     1 bit	      Stores true or false values
+                  char           2 bytes           Stores a single character
