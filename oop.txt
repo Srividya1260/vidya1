@@ -1,0 +1,94 @@
+object-oriented programming:
+As the name suggests, Object-Oriented Programming or OOPs refers to languages that use objects in programming, 
+they use objects as a primary source to implement what is to happen in the code. Objects are seen by the viewer 
+or user, performing tasks assigned by you. Object-oriented programming aims to implement real-world entities 
+like inheritance, hiding, polymorphism etc. in programming. The main aim of OOP is to bind together the data 
+and the functions that operate on them so that no other part of the code can access this data except that function. 
+
+Principles of object oriented programming :
+   1. Encapsulation
+   2. Inheritance
+   3. Abstraction
+   4. Polymorphism
+
+
+*  Encapsulation:
+                              Encapsulation is a process of wrapping code and data together into a single unit.
+
+* Inheritance :
+                          It is in which characteristics of a parent class is inherited to child class which means 
+the child class can access all methods ,variables and constructors of a parent class.
+=>Types of inheritance:
+     1.Single inheritance
+     2.Multilevel inheritance
+     3.Hierarchical inheritance
+     4.Multiple inheritance
+
+* Abstraction :
+                          Abstraction is a process of hiding the implementation details and showing only
+ functionality to the user. The keyword abstract can be applied to classes and methods. abstract 
+and final or static can never be together.
+ex:
+     abstract class Shape {
+    public abstract void draw();
+}
+    class Circle extends Shape{
+       public void draw() {
+          System.out.println("Circle!");
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        Shape circle = new Circle();
+        circle.draw();
+    }
+}
+
+* Polymorphism :
+                               Polymorphism is the ability of an object to take on many forms.Polymorphism 
+in OOP occurs when a super class references a sub class object.
+
+*Examples of polymorphism :
+                                                  1.Method overloading
+                                                  2.Method overriding
+
+*Method overloading:
+                                   If a class has multiple methods that have same name but different parameters,
+ this is known as method overloading.
+ex:
+   class JavaProgrammer{
+    public void code() {
+        System.out.println("Coding in C++");
+    }
+    public void code(String language) {
+        System.out.println("Coding in "+language);
+    }
+}
+public class MethodOverloader {
+    public static void main(String[] args) {
+        JavaProgrammer gosling = new JavaProgrammer();
+        gosling.code();
+        gosling.code("Java");
+    }
+}
+ 
+*Method overriding :
+                                   If a subclass has the same method as declared in the super class, this is known
+ as method overriding.
+ex:
+public class Programmer {
+    public void code() {
+        System.out.println("Coding in C++");
+    }
+}
+public class JavaProgrammer extends Programmer{
+    public void code() {
+        System.out.println("Coding in Java");
+    }
+}
+public class MethodOverridder {
+    public static void main(String[] args) {
+        Programmer ben = new JavaProgrammer();
+        ben.code();
+    }
+}
